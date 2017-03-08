@@ -14,8 +14,8 @@ $imgurl: '/public/testgulp/img';
 }
 
 .bg {
-    background: url('#{$imgurl}/rec-bg.png') center no-repeat;
+    background: url('#{$imgurl}/hover-bg.jpg') center no-repeat;
     background-size: cover;
-    height: 229px;
-    width: 780px;
+    height: 360px;
+    width: 480px;
 }
