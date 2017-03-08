@@ -1,0 +1,21 @@
+@import "../../reset";
+$imgurl: '/public/testgulp/img';
+@keyframes slideUp {
+    from {
+        transform: scale(.8);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+.ani {
+    animation: slideUp 500ms linear both;
+}
+
+.bg {
+    background: url('#{$imgurl}/rec-bg.png') center no-repeat;
+    background-size: cover;
+    height: 229px;
+    width: 780px;
+}
