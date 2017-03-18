@@ -1,0 +1,13 @@
+@import "../../reset";
+$imgurl: '/public/cv/img';
+html,
+body {
+    background-color: #525659;
+}
+
+.cv-outer-wrap {
+    background-color: #fff;
+    min-height: 297mm;
+    width: 210mm;
+    margin: 40px auto;
+}
